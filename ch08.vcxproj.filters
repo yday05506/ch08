@@ -15,7 +15,7 @@
     </Filter>
   </ItemGroup>
   <ItemGroup>
-    <ClCompile Include="shellSort.c">
+    <ClCompile Include="quickSort1.c">
       <Filter>소스 파일</Filter>
     </ClCompile>
   </ItemGroup>
