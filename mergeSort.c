@@ -1,8 +1,8 @@
-﻿#include <stdio.h>
+#include <stdio.h>
 #include <stdlib.h>
 
 void Merge(int a[], int left, int mid, int right) {
-	int* b = (int*)malloc(sizeof(int) * (right – left + 1));
+	int* b = (int*)malloc(sizeof(int) * (right - left + 1));
 	int i = left, j = mid + 1, k = 0;
 
 	while (i <= mid && j <= right) {
@@ -38,7 +38,7 @@ int main(void) {
 
 	Division(a, 0, n - 1);
 
-	printf("병합 정렬: ");
+	printf("º´ÇÕ Á¤·Ä: ");
 	for (i = 0; i < n; i++) printf("%d  ", a[i]);
 	printf("\n");
 
