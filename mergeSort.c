@@ -38,7 +38,7 @@ int main(void) {
 
 	Division(a, 0, n - 1);
 
-	printf("╨╢гу а╓╥д: ");
+	printf("б╨б╢ц┤ц∙ ц│б╓б╥ц└: ");
 	for (i = 0; i < n; i++) printf("%d  ", a[i]);
 	printf("\n");
 
